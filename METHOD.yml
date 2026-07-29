@@ -1,0 +1,24 @@
+method:
+  name: Mycelia
+  # Referencia normativa: los agentes cargan el metodo desde sealed_ref, nunca desde main.
+  # Estado draft: v0.2 se sella tras el piloto. Linaje: metodo-v0.1 fue sellado el 2026-07-26
+  # en la instancia original (hoy zigiella/mycelia-zigiella) antes de separar metodo e instancia.
+  sealed_ref: null
+  working_ref: main
+  status: draft
+
+contract:
+  knowledge_plane: instance-repository
+  execution_plane: host-project
+  task_tracker: host-project
+
+instance:
+  # Cada adopcion crea su instancia privada de conocimiento (patron: mycelia-<quien>)
+  # con mundo/ equipos/ proyectos/ direccion/ y un METHOD.yml apuntando aqui.
+  pattern: "mycelia-<owner>"
+  example: "zigiella/mycelia-zigiella"
+
+rules:
+  load_method_from: sealed_ref
+  external_content_quarantine: true
+  sensitive_data_in_graph: false
