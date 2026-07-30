@@ -21,3 +21,4 @@
 - [N=1 por defecto, N por evidencia](metodo/nucleo/n1-por-defecto.md) — Un agente por defecto; N agentes solo cuando la tarea lo paga (lectura paralela sí, escritura solo con partición limpia); el coste se dice en voz alta
 - [Ocio genera; fallo hace ruido; esterilidad se mide](metodo/nucleo/ocio-genera.md) — Ocio genera, fallo hace ruido, esterilidad se mide: los defaults invertidos del arnés
 - [Roles](metodo/nucleo/roles.md) — Los dos roles de Mycelia, ninguno manda: bibliotecario (jardinero a posteriori) y verificador (contrasta, no asigna)
+- [Propuesta · el par integra lo ajeno, nunca lo suyo](metodo/propuestas/el-par-integra-lo-ajeno.md) — Propuesta: el par integra el trabajo ajeno rutinario tras verificarlo, nunca el suyo; resuelve el choque entre la preferencia de la dirección y las reglas de roles/el-par selladas en v0.2
