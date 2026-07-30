@@ -2,7 +2,8 @@
 descripcion: "Propuesta: el par integra el trabajo ajeno rutinario tras verificarlo, nunca el suyo; resuelve el choque entre la preferencia de la dirección y las reglas de roles/el-par selladas en v0.2"
 capa: metodo
 tipo: propuesta
-estado: vigente
+estado: superado
+supersedido_por: Mycelia Relay 0.3 (quién integra)
 autor: NEOCAM
 fuente: propio
 creado: 2026-07-30
@@ -28,3 +29,30 @@ El suelo no se toca: lo irreversible hacia fuera (publicar, desplegar, enviar, g
 - **Confianza excesiva en un solo par de ojos.** Si el par verifica y además integra, su error no lo caza nadie aguas abajo. Mitigación: el adversario de otra tecnología sigue siendo obligatorio para propuestas de método y para lo caro, y la dirección conserva el suelo.
 
 **Estado.** Mientras no se selle, la dirección delegó explícitamente los merges (2026-07-30) y esa delegación manda por ser suya; lo que esta propuesta busca es que la norma escrita diga lo que la práctica hace. Si al leerla la dirección prefiere la formulación de v0.2, se rechaza y los merges vuelven a ella: la propuesta pierde, la doctrina gana.
+
+## Auditoría adversaria (2026-07-30): SIN VALE
+
+Un adversario sin contexto la atacó tal como exige [[../nucleo/metodo-sellado]], advertido del conflicto de interés (la escribe quien recibe la autoridad). Veredicto: **sin vale**, con cuatro objeciones ALTA que el autor concede enteras:
+
+- **A-01 · El test de autoría mide el diff, no la decisión.** El par escribe el issue, otra agente lo implementa, el par verifica *contra su propio issue* e integra. Formalmente «no lo escribió»; sustantivamente nadie ajeno miró la decisión.
+- **A-02 · La cláusula «o» anula la salvaguarda.** «Lo integra la dirección **o** pasa por un adversario»: quien elige la vía, invoca al adversario y lee su veredicto es el par. Bucle cerrado operado por el auditado.
+- **A-03 · La salvaguarda es inverificable, y el método ya lo sabía.** Con una sola cuenta humana, quién integró no deja rastro distinguible ([[../nucleo/identidad-y-nombres]] ya lo declara). El propio PR de esta propuesta figura mergeado por la cuenta de la dirección.
+- **A-04 · Viola la regla que pretende enmendar.** [[../nucleo/metodo-sellado]]: «los procesos que proponen método argumentan desde evidencia y cicatrices, **no desde las preferencias de la dirección**». El problema declarado aquí es literalmente una preferencia, sin cicatriz, sin coste medido, y la delegación en que se apoya no está escrita en `direccion/`.
+
+Y una omisión de fondo (**F-01**): la propuesta compara con un contrincante de paja. v0.2 **nunca dice que el autor integre lo suyo**; dice quién no integra y calla quién sí. La alternativa real observada siempre fue «integra la dirección».
+
+**Alternativas que no consideré y que probablemente ganan:** separar *aprobar* de *pulsar el botón* (el par verifica y aprueba, el anfitrión integra solo con checks verdes: resuelve el problema real sin mover un milímetro de autoridad), e integración cruzada entre proyectos (que además escala con N en vez de embudar en 1, y es más fiel a [[../nucleo/el-entorno-coordina]] que esta propuesta).
+
+**Estado:** a decisión de la dirección. El autor recomienda **rechazarla** en favor de las alternativas de arriba. Lo único que merece sobrevivir de ella es el hueco que sí destapó: **v0.2 dice quién no integra y nunca dice quién sí**, y eso hay que cerrarlo en cualquier caso.
+
+## Rechazada por la dirección (2026-07-30)
+
+La dirección la rechaza y decide otra cosa, más simple y mejor: **el par de cada proyecto integra el trabajo de su proyecto cuando el merge es rutinario; lo que no lo es, y la duda, escalan a la dirección.** Descarta además la integración cruzada entre proyectos (daría a cada agente acceso a repos que no le tocan, contra el acceso por necesidad), y sitúa la regla donde corresponde: **en Relay, plano de ejecución, no en el núcleo del método.**
+
+Por qué esa respuesta es mejor que esta propuesta:
+
+- **Deja v0.2 coherente sin tocarla.** El verificador sigue sin integrar y el par sigue sin ser autoridad única de merge; lo que faltaba era decir quién sí integra, y ahora se dice, en Relay.
+- **No crea cuello de botella ni coordinadora encubierta**, que eran los dos costes que esta propuesta se comía.
+- **Cierra el hueco real** que la auditoría reconoció como lo único salvable de aquí: v0.2 decía quién no integra y callaba quién sí.
+
+Queda como cicatriz del método: una propuesta escrita por quien se beneficiaba de ella, argumentada desde una preferencia y no desde una cicatriz, tumbada por el adversario y sustituida por la respuesta simple de la dirección. El aparato funcionó.
