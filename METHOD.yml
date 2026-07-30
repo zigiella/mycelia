@@ -1,11 +1,11 @@
 method:
   name: Mycelia
   # Referencia normativa: los agentes cargan el metodo desde sealed_ref, nunca desde main.
-  # Estado draft: v0.2 se sella tras el piloto. Linaje: metodo-v0.1 fue sellado el 2026-07-26
-  # en la instancia original (hoy zigiella/mycelia-zigiella) antes de separar metodo e instancia.
-  sealed_ref: null
+  # Linaje: metodo-v0.1 se sello el 2026-07-26 en la instancia original (hoy
+  # zigiella/mycelia-zigiella), antes de separar metodo e instancia.
+  sealed_ref: metodo-v0.2
   working_ref: main
-  status: draft
+  status: sealed
 
 contract:
   knowledge_plane: instance-repository
