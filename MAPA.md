@@ -21,4 +21,3 @@
 - [N=1 por defecto, N por evidencia](metodo/nucleo/n1-por-defecto.md) — Un agente por defecto; N agentes solo cuando la tarea lo paga (lectura paralela sí, escritura solo con partición limpia); el coste se dice en voz alta
 - [Ocio genera; fallo hace ruido; esterilidad se mide](metodo/nucleo/ocio-genera.md) — Ocio genera, fallo hace ruido, esterilidad se mide: los defaults invertidos del arnés
 - [Roles](metodo/nucleo/roles.md) — Los dos roles de Mycelia, ninguno manda: bibliotecario (jardinero a posteriori) y verificador (contrasta, no asigna)
-- [Propuesta · linaje por cifra para hechos derivados de datos](metodo/propuestas/univot3-linaje-por-cifra.md) — Propuesta: convención de linaje por cifra (valor + entorno + snapshot) para hechos derivados de datos, traída del marco anfitrión univot3

@@ -2,7 +2,8 @@
 descripcion: "Propuesta: convención de linaje por cifra (valor + entorno + snapshot) para hechos derivados de datos, traída del marco anfitrión univot3"
 capa: metodo
 tipo: propuesta
-estado: vigente
+estado: adoptada
+adoptada_en: metodo-v0.2 (grafo-con-procedencia)
 autor: Xenia
 fuente: propio
 creado: 2026-07-26
@@ -15,3 +16,5 @@ creado: 2026-07-26
 **Cambio concreto.** Recomendar en [[../nucleo/grafo-con-procedencia]] que toda cifra dinámica embebida en una nota lleve, junto al número, su **entorno** (local / warehouse / producción / definición / imagen) y su **snapshot** (`AAAA-MM-DD`). No es un campo nuevo de frontmatter obligatorio: es una convención de redacción para cifras (p. ej. `1.846.525 reseñas [BigQuery, snapshot 2026-07-22]`). Complementa `invalidar-no-borrar`: cuando llega una cifra nueva, la vieja no se borra, se fecha.
 
 **Qué empeora si se adopta (coste).** Fricción de escritura: cada número pide dos etiquetas más, y en notas con muchas cifras se vuelve verboso. Riesgo de teatro de procedencia (etiquetar por ritual sin que aporte). Mitigación: aplicarlo solo a **cifras dinámicas** (las que cambian con el tiempo o el entorno), no a constantes ni a cifras de un paper ya fechado por la nota.
+
+**Adoptada** en metodo-v0.2 (2026-07-30), con la mitigación que la propia propuesta pedía: solo cifras dinámicas, no constantes.

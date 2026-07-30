@@ -45,6 +45,6 @@ Todo lo demás se relaciona con `[[wikilinks]]` sin tipo. Más vocabulario forma
 
 Una propuesta termina de tres formas y las tres se registran: **adoptada** (`estado: adoptada` + `adoptada_en`, para no dejarla abierta fingiendo que sigue en debate), **rechazada** (`estado: superado` con el porqué, porque los rechazos enseñan) o **vigente** mientras se decide.
 
-Reglas: fechas siempre AAAA-MM-DD; los valores de `estado` y `tipo` son los de esta lista, sin sinónimos (`status`, `vigente: true` y variantes se rechazan); una nota, una idea (aviso a partir de ~100 líneas); el nombre de fichero es un slug único y estable (renombrar exige migrar los enlaces; mejor no renombrar). Para hechos derivados de datos, la convención de linaje por cifra (valor + entorno + snapshot junto a la cifra) está propuesta en `metodo/propuestas/` y se ratifica en el sello v0.2.
+Reglas: fechas siempre AAAA-MM-DD; los valores de `estado` y `tipo` son los de esta lista, sin sinónimos (`status`, `vigente: true` y variantes se rechazan); una nota, una idea (aviso a partir de ~100 líneas); el nombre de fichero es un slug único y estable (renombrar exige migrar los enlaces; mejor no renombrar). Para hechos derivados de datos, la convención de linaje por cifra vive en `grafo-con-procedencia`.
 
-Nota de linaje: `pregunta` entró como etiqueta epistémica de primera clase a propuesta del equipo de univot3 (un hueco explícito que aún no es hipótesis); se ratifica con el sello v0.2.
+Nota de linaje: `pregunta` entró como etiqueta epistémica de primera clase a propuesta del equipo de univot3 (un hueco explícito que aún no es hipótesis), ratificada en `metodo-v0.2`.
