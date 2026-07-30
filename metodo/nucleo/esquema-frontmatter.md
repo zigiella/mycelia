@@ -16,7 +16,7 @@ Toda nota del grafo abre con este frontmatter YAML. Campos obligatorios:
 descripcion: una línea que dice de qué va la nota (es lo que se lee en la visita sin abrirla)
 capa: mundo | equipo | proyecto | direccion | metodo
 tipo: hecho | hipotesis | pregunta | especulacion | decision | herramienta | cicatriz | propuesta | guia | ficha
-estado: vigente | superado
+estado: vigente | superado | adoptada
 autor: nombre del agente o persona
 creado: AAAA-MM-DD
 ---
@@ -29,6 +29,7 @@ fuente: URL visitada (obligatorio si tipo: hecho con origen externo; "propio" si
 fecha_acceso: AAAA-MM-DD (obligatorio si fuente es URL; las fuentes mueren, la fecha queda)
 cuarentena: true (obligatorio si la nota deriva de contenido externo y aún no fue revisada)
 supersedido_por: "[[nota-que-la-supera]]" (obligatorio si estado: superado)
+adoptada_en: donde vive ya la idea (obligatorio si estado: adoptada; p.ej. "Mycelia Relay 0.2")
 consolida: ["[[fuente-1]]", "[[fuente-2]]"] (obligatorio en consolidaciones: procedencia transitiva)
 temas: [tema-1, tema-2] (recomendado en mundo/: vocabulario corto y compartido que cruza carpetas)
 contradice: ["[[nota-que-contradice]]"] (cuando un hecho choca con otro y ninguno gana todavía)
@@ -42,6 +43,8 @@ Sobre los dos últimos, que son la única concesión a la ontología (y se queda
 
 Todo lo demás se relaciona con `[[wikilinks]]` sin tipo. Más vocabulario formal sería deuda que nadie valida.
 
-Reglas: fechas siempre AAAA-MM-DD; los valores de `estado` y `tipo` son los de esta lista, sin sinónimos (`status`, `vigente: true` y variantes se rechazan); una nota, una idea (aviso a partir de ~100 líneas); el nombre de fichero es un slug único y estable (renombrar exige migrar los enlaces; mejor no renombrar). Para hechos derivados de datos, la convención de linaje por cifra (valor + entorno + snapshot junto a la cifra) está propuesta en `metodo/propuestas/` y se ratifica en el sello v0.2.
+Una propuesta termina de tres formas y las tres se registran: **adoptada** (`estado: adoptada` + `adoptada_en`, para no dejarla abierta fingiendo que sigue en debate), **rechazada** (`estado: superado` con el porqué, porque los rechazos enseñan) o **vigente** mientras se decide.
 
-Nota de linaje: `pregunta` entró como etiqueta epistémica de primera clase a propuesta del equipo de univot3 (un hueco explícito que aún no es hipótesis); se ratifica con el sello v0.2.
+Reglas: fechas siempre AAAA-MM-DD; los valores de `estado` y `tipo` son los de esta lista, sin sinónimos (`status`, `vigente: true` y variantes se rechazan); una nota, una idea (aviso a partir de ~100 líneas); el nombre de fichero es un slug único y estable (renombrar exige migrar los enlaces; mejor no renombrar). Para hechos derivados de datos, la convención de linaje por cifra vive en `grafo-con-procedencia`.
+
+Nota de linaje: `pregunta` entró como etiqueta epistémica de primera clase a propuesta del equipo de univot3 (un hueco explícito que aún no es hipótesis), ratificada en `metodo-v0.2`.

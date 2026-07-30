@@ -35,4 +35,4 @@ Doctrina completa en [`metodo/nucleo/`](metodo/nucleo/); contrato operativo en [
 
 ## Estado
 
-Método en borrador público hacia `metodo-v0.2` (primer sello en este repo; pendiente de piloto real). Linaje: `metodo-v0.1` se selló el 2026-07-26 en la instancia original, antes de separar método e instancia. Las propuestas de cambio viven en [`metodo/propuestas/`](metodo/propuestas/); promover a norma exige revisión adversaria, ratificación de la dirección y tag nuevo.
+Método listo para su primer sello público (`metodo-v0.2`), validado por un piloto real de relevo local↔cloud. Linaje: `metodo-v0.1` se selló el 2026-07-26 en la instancia original, antes de separar método e instancia. Las propuestas de cambio viven en [`metodo/propuestas/`](metodo/propuestas/); promover a norma exige revisión adversaria, ratificación de la dirección y tag nuevo.

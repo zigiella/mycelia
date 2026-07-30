@@ -2,7 +2,8 @@
 descripcion: "Propuesta a Relay: documentar que labels y plantillas solo surten efecto desde la rama por defecto, y dar un paso de bootstrap; hallazgo del piloto T3-004"
 capa: metodo
 tipo: propuesta
-estado: vigente
+estado: adoptada
+adoptada_en: Mycelia Relay 0.2
 autor: Xenia
 fuente: propio
 creado: 2026-07-29
@@ -25,3 +26,5 @@ Resultado: la primera tarea bajo Relay se ejecuta **sin la mitad del andamiaje**
 Opcionalmente, incluir en `mycelia-relay` un script de bootstrap (equivalente a `scripts/validate_config.py`, que sí existe y funciona) que dé de alta las etiquetas de estado con sus colores.
 
 **Qué empeora si se adopta (coste).** El README deja de poder leerse como "copia cuatro ficheros y ya": la instalación pasa a tener dos pasos y parece más pesada de lo que es, lo que puede desanimar la adopción en proyectos pequeños. Un script de bootstrap añade además superficie que mantener (permisos del token, colisión con labels existentes del repo). Mitigación: dejar el paso 1 como **checklist de tres líneas**, y el script como opcional.
+
+**Adoptada** en Mycelia Relay 0.2 (2026-07-30). Nació de fricción real del piloto T3-004.

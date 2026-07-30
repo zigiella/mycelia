@@ -57,6 +57,8 @@ def audit() -> tuple[int, list[str]]:
                 findings.append(f"{rel}: fuente externa sin fecha_acceso")
             if meta.get("estado") == "superado" and not meta.get("supersedido_por"):
                 findings.append(f"{rel}: estado superado sin supersedido_por")
+            if meta.get("estado") == "adoptada" and not meta.get("adoptada_en"):
+                findings.append(f"{rel}: estado adoptada sin adoptada_en")
     return checked, findings
 
 
