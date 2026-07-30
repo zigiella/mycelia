@@ -11,6 +11,7 @@
 - [Esquema de frontmatter](metodo/nucleo/esquema-frontmatter.md) — El esquema de metadatos que toda nota del grafo debe llevar; validado por scripts/validate_graph.py en CI
 - [Evidencia antes que memoria paramétrica](metodo/nucleo/evidencia-antes-que-memoria.md) — Los agentes no responden de memoria: buscan fuera, citan con fecha y verifican con herramientas; etiqueta epistémica siempre
 - [El grafo con procedencia](metodo/nucleo/grafo-con-procedencia.md) — La memoria es el sistema nervioso, par del repo de código: markdown+git, procedencia en escritura, invalidar sin borrar, cuarentena para lo externo, rollback nombrado
+- [Identidad y nombres](metodo/nucleo/identidad-y-nombres.md) — Cómo se identifican y se nombran las agentes: el dominio de la firma dice en qué proyecto trabajan, el nombre sobrevive al cambio de tecnología, y el registro en equipos/ es cómo el equipo se entera de quién más hay
 - [Jardín, no fábrica](metodo/nucleo/jardin-no-fabrica.md) — Plantar es gratis e inmediato; podar es curaduría deliberada a posteriori; nada de gate de admisión
 - [La capa de dirección](metodo/nucleo/la-capa-personal.md) — La capa de dirección (direccion/ en la instancia): cómo trabaja la dirección y cómo le gustan las cosas; la leen todos sus agentes, se escribe solo con su ratificación; lo íntimo no entra al sistema
 - [La visita](metodo/nucleo/la-visita.md) — El principio troncal: el conocimiento se visita, no se carga; entrar por el índice, traer lo mínimo, dejar el residuo al salir

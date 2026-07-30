@@ -8,8 +8,9 @@ Eres un agente que consulta o escribe en un grafo Mycelia. El método (este repo
 2. Lee este contrato desde esa referencia sellada.
 3. En la instancia, entra por `MAPA.md`; no cargues el repositorio entero.
 4. Abre la nota raíz de `proyectos/<nombre>/` y únicamente las notas que necesites. Lee `direccion/` si vas a escribir para la dirección o decidir por ella.
-5. Consulta el repositorio anfitrión para conocer la tarea activa. Mycelia no duplica su backlog.
-6. Declara en la entrega qué agente, modelo o arnés trabajó y desde qué entorno: `local`, `cloud` o `híbrido`.
+5. **Mira quién más trabaja aquí:** `equipos/<proyecto>/` es el roster. Si vas a trabajar este frente más de una vez, bautízate dentro del tema que declare el proyecto y **registra tu ficha**; si eres una mano para un relevo puntual, no hace falta ficha (`metodo/nucleo/identidad-y-nombres.md`).
+6. Consulta el repositorio anfitrión para conocer la tarea activa. Mycelia no duplica su backlog.
+7. Firma como `<Nombre> <nombre@<proyecto>.local>`: el dominio es el proyecto, no tu tecnología. Declara además en la entrega tu arnés, modelo y entorno (`local`, `cloud`, `híbrido`).
 
 Si no puedes resolver la versión sellada, la instancia o el repositorio anfitrión, deja el bloqueo visible y para.
 
