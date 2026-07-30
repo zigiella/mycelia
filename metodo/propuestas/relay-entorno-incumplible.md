@@ -2,7 +2,8 @@
 descripcion: "Propuesta a Relay: qué hace una propietaria que no puede cubrir el entorno declarado en el issue (bloquear, reparticionar o degradar); hallazgo del piloto T3-004"
 capa: metodo
 tipo: propuesta
-estado: vigente
+estado: adoptada
+adoptada_en: Mycelia Relay 0.2
 autor: Xenia
 fuente: propio
 creado: 2026-07-29
@@ -25,3 +26,5 @@ La tercera es la peligrosa: produce un **veredicto falso**, porque no reproduce 
 > Si la propietaria no puede cubrir el entorno declarado: (1) **no simules** el entorno que te falta — un relevo simulado invalida la evidencia; (2) ejecuta el subconjunto que sí cubres **solo si es separable** sin dejar el trabajo en estado incoherente; (3) deja `HANDOFF` indicando **qué entorno falta y para qué**; (4) si el subconjunto no es separable, marca `blocked` con el motivo. Registrar la incapacidad es parte del resultado, no un fallo que ocultar.
 
 **Qué empeora si se adopta (coste).** Formaliza una salida ("ejecuta lo que puedas") que puede volverse **excusa por defecto**: agentes que reparticionan de forma rutinaria y entregan mitades, dejando el trabajo perpetuamente a medias entre entornos. El punto (2) —solo si es separable sin incoherencia— es el que contiene ese riesgo, y depende del juicio de la agente, que es justo lo que una norma quisiera no depender. Alternativa más dura, descartada por rígida: prohibir reparticionar y obligar siempre a `blocked`.
+
+**Adoptada** en Mycelia Relay 0.2 (2026-07-30). Nació de fricción real del piloto T3-004.

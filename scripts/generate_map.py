@@ -40,15 +40,18 @@ def main() -> None:
         "",
     ]
     for section in SECTIONS:
-        lines.extend([f"## {section}/", ""])
         base = ROOT / section
+        if not base.exists():
+            continue
+        lines.extend([f"## {section}/", ""])
         rows: list[str] = []
-        if base.exists():
+        if True:
             for path in sorted(base.rglob("*.md")):
                 if path.name in SKIP:
                     continue
                 meta = frontmatter(path)
-                if meta.get("estado") == "superado":
+                # Lo cerrado no ocupa sitio en el indice: superado y adoptada salen.
+                if meta.get("estado") in ("superado", "adoptada"):
                     continue
                 rel = path.relative_to(ROOT).as_posix()
                 rows.append(f"- [{title(path)}]({rel}) — {meta.get('descripcion', 'Sin descripción')}")
