@@ -30,8 +30,17 @@ fecha_acceso: AAAA-MM-DD (obligatorio si fuente es URL; las fuentes mueren, la f
 cuarentena: true (obligatorio si la nota deriva de contenido externo y aún no fue revisada)
 supersedido_por: "[[nota-que-la-supera]]" (obligatorio si estado: superado)
 consolida: ["[[fuente-1]]", "[[fuente-2]]"] (obligatorio en consolidaciones: procedencia transitiva)
+temas: [tema-1, tema-2] (recomendado en mundo/: vocabulario corto y compartido que cruza carpetas)
+contradice: ["[[nota-que-contradice]]"] (cuando un hecho choca con otro y ninguno gana todavía)
 ---
 ```
+
+Sobre los dos últimos, que son la única concesión a la ontología (y se quedan aquí):
+
+- **`temas`** existe porque las carpetas solo dan una faceta y un hecho sirve a varios proyectos. El vocabulario vive en la instancia (`mundo/TEMAS.md`), es corto, y lo amplía el bibliotecario cuando un tema se repite; no se inventan temas de un solo uso.
+- **`contradice`** es la relación tipada que más paga: un choque nombrado se puede resolver, uno silencioso envenena. Contradecir no es superar; mientras no haya resolución, ambas notas siguen vigentes y enlazadas.
+
+Todo lo demás se relaciona con `[[wikilinks]]` sin tipo. Más vocabulario formal sería deuda que nadie valida.
 
 Reglas: fechas siempre AAAA-MM-DD; los valores de `estado` y `tipo` son los de esta lista, sin sinónimos (`status`, `vigente: true` y variantes se rechazan); una nota, una idea (aviso a partir de ~100 líneas); el nombre de fichero es un slug único y estable (renombrar exige migrar los enlaces; mejor no renombrar). Para hechos derivados de datos, la convención de linaje por cifra (valor + entorno + snapshot junto a la cifra) está propuesta en `metodo/propuestas/` y se ratifica en el sello v0.2.
 
