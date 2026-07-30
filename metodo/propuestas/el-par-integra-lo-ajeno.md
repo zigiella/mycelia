@@ -2,7 +2,8 @@
 descripcion: "Propuesta: el par integra el trabajo ajeno rutinario tras verificarlo, nunca el suyo; resuelve el choque entre la preferencia de la dirección y las reglas de roles/el-par selladas en v0.2"
 capa: metodo
 tipo: propuesta
-estado: vigente
+estado: superado
+supersedido_por: Mycelia Relay 0.3 (quién integra)
 autor: NEOCAM
 fuente: propio
 creado: 2026-07-30
@@ -43,3 +44,15 @@ Y una omisión de fondo (**F-01**): la propuesta compara con un contrincante de 
 **Alternativas que no consideré y que probablemente ganan:** separar *aprobar* de *pulsar el botón* (el par verifica y aprueba, el anfitrión integra solo con checks verdes: resuelve el problema real sin mover un milímetro de autoridad), e integración cruzada entre proyectos (que además escala con N en vez de embudar en 1, y es más fiel a [[../nucleo/el-entorno-coordina]] que esta propuesta).
 
 **Estado:** a decisión de la dirección. El autor recomienda **rechazarla** en favor de las alternativas de arriba. Lo único que merece sobrevivir de ella es el hueco que sí destapó: **v0.2 dice quién no integra y nunca dice quién sí**, y eso hay que cerrarlo en cualquier caso.
+
+## Rechazada por la dirección (2026-07-30)
+
+La dirección la rechaza y decide otra cosa, más simple y mejor: **el par de cada proyecto integra el trabajo de su proyecto cuando el merge es rutinario; lo que no lo es, y la duda, escalan a la dirección.** Descarta además la integración cruzada entre proyectos (daría a cada agente acceso a repos que no le tocan, contra el acceso por necesidad), y sitúa la regla donde corresponde: **en Relay, plano de ejecución, no en el núcleo del método.**
+
+Por qué esa respuesta es mejor que esta propuesta:
+
+- **Deja v0.2 coherente sin tocarla.** El verificador sigue sin integrar y el par sigue sin ser autoridad única de merge; lo que faltaba era decir quién sí integra, y ahora se dice, en Relay.
+- **No crea cuello de botella ni coordinadora encubierta**, que eran los dos costes que esta propuesta se comía.
+- **Cierra el hueco real** que la auditoría reconoció como lo único salvable de aquí: v0.2 decía quién no integra y callaba quién sí.
+
+Queda como cicatriz del método: una propuesta escrita por quien se beneficiaba de ella, argumentada desde una preferencia y no desde una cicatriz, tumbada por el adversario y sustituida por la respuesta simple de la dirección. El aparato funcionó.
