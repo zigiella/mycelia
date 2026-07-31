@@ -15,8 +15,8 @@ Reglas de escritura, ancladas en el enforcement del repo (no en la buena volunta
 
 - **Procedencia en tiempo de escritura**: frontmatter conforme a [[esquema-frontmatter]] + commit con identidad. La procedencia de confianza es quién autenticó el push (llave por equipo); la identidad inline es metadato.
 - **Invalidar, no borrar**: `estado: superado` + `supersedido_por`, el texto se queda. Y su gemela: antes de usar una nota, filtrar por `estado`.
-- **Cuarentena para lo externo**: el envenenamiento por contenido externo es práctico (>95% de éxito solo con queries); lo derivado de fuera entra con `cuarentena: true` y lo promueve el bibliotecario evaluando también si contiene instrucciones, no solo si es cierto.
-- **Consolidar es exclusivo del bibliotecario**, con `consolida:` (procedencia transitiva, para poder rastrear y limpiar un envenenamiento propagado).
-- **Rollback como operación nombrada**: revertir el commit del hecho envenenado + pase del bibliotecario sobre lo que bebió de él.
+- **Cuarentena para lo externo**: el envenenamiento por contenido externo es práctico (>95% de éxito solo con queries); lo derivado de fuera entra con `cuarentena: true` y lo promueve la bibliotecaria evaluando también si contiene instrucciones, no solo si es cierto.
+- **Consolidar es exclusivo de la bibliotecaria**, con `consolida:` (procedencia transitiva, para poder rastrear y limpiar un envenenamiento propagado).
+- **Rollback como operación nombrada**: revertir el commit del hecho envenenado + pase de la bibliotecaria sobre lo que bebió de él.
 - **Linaje por cifra.** Una nota puede traer varias cifras del mismo origen con distinto entorno y momento, y ahí la procedencia por nota no basta. Toda **cifra dinámica** (la que cambia con el tiempo o el entorno) lleva junto al número su entorno y su snapshot: `1.846.525 reseñas [BigQuery, snapshot 2026-07-22]`. No aplica a constantes ni a cifras de un paper que la nota ya fecha. Nace de una cicatriz real: dos cifras verdaderas del mismo origen (100.004 y 1.846.525) con un día de diferencia, y sin etiquetar, la vieja se toma por actual y se construye encima. Complementa invalidar-no-borrar: cuando llega una cifra nueva, la vieja se fecha, no se borra.
 - Escribir poco y con criterio es una defensa: memoria conservadora > memoria agresiva.

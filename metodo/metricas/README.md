@@ -9,7 +9,7 @@ creado: 2026-07-25
 
 # Métricas
 
-Lo que Mycelia se mide a sí misma, en el pase del bibliotecario o por proyecto:
+Lo que Mycelia se mide a sí misma, en el pase de la bibliotecaria o por proyecto:
 
 - **Generatividad:** ideas plantadas / supervivientes a poda / promovidas. Un jardín sin poda es maleza; un jardín sin plantas es el fallo que vinimos a evitar.
 - **Citas efectivas y precisión de cita:** de las fuentes tocadas, cuántas sostienen de verdad el resultado; toda cita con fecha de acceso viva.

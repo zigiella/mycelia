@@ -15,6 +15,6 @@ creado: 2026-07-26
 
 **Cambio concreto.** Añadir `pregunta` a los valores de `tipo` en [[../nucleo/esquema-frontmatter]] y reconocerla en [[../nucleo/evidencia-antes-que-memoria]] como cuarta etiqueta epistémica: una afirmación de ignorancia con destinatario y condición de cierre. Encaja con la pizarra reclamable ([[../nucleo/el-entorno-coordina]]): una `pregunta` madura puede convertirse en tarea.
 
-**Qué empeora si se adopta (coste).** Cuarta etiqueta = más superficie de decisión para el que planta (¿esto es hipótesis o pregunta?) y riesgo de que la pizarra y las notas-pregunta se solapen (dos sitios para lo mismo). Mitigación posible: `pregunta` es para el hueco de conocimiento; la pizarra, para el trabajo reclamable. Si el bibliotecario ve que se pisan, se colapsa una en la otra.
+**Qué empeora si se adopta (coste).** Cuarta etiqueta = más superficie de decisión para el que planta (¿esto es hipótesis o pregunta?) y riesgo de que la pizarra y las notas-pregunta se solapen (dos sitios para lo mismo). Mitigación posible: `pregunta` es para el hueco de conocimiento; la pizarra, para el trabajo reclamable. Si la bibliotecaria ve que se pisan, se colapsa una en la otra.
 
 **Adoptada** en metodo-v0.2 (esquema de frontmatter) (2026-07-30). Nació de fricción real del piloto T3-004.

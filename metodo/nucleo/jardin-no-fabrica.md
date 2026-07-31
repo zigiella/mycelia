@@ -9,7 +9,7 @@ creado: 2026-07-25
 
 # Jardín, no fábrica
 
-Plantar (ideas, notas, experimentos, ramas) es gratis e inmediato, con autoría y fecha. La calidad se gestiona en la poda ([[roles|bibliotecario]]), no en la admisión. La innovación necesita muchas apuestas pequeñas y baratas; un coste fijo por apuesta las elimina y sesga a los agentes hacia pocas contribuciones grandes y seguras.
+Plantar (ideas, notas, experimentos, ramas) es gratis e inmediato, con autoría y fecha. La calidad se gestiona en la poda ([[roles|bibliotecaria]]), no en la admisión. La innovación necesita muchas apuestas pequeñas y baratas; un coste fijo por apuesta las elimina y sesga a los agentes hacia pocas contribuciones grandes y seguras.
 
 Corolarios: la trayectoria completa se conserva (los callejones sin salida son dataset, no vergüenza); trabajo-primero (haces, y la tarea se nombra después si acaso; registro a posteriori, no permiso a priori); las colisiones entre agentes sobre una idea son fenómeno generativo, no accidente (el [[roles|verificador]] vigila la calidad, no la frontera).
 
