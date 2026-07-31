@@ -5,7 +5,7 @@ from __future__ import annotations
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-SECTIONS = ("metodo", "equipos", "proyectos", "mundo")
+SECTIONS = ("metodo", "direccion", "equipos", "proyectos", "mundo")
 SKIP = {"README.md", "MAPA.md", "AGENTS.md"}
 
 
@@ -43,7 +43,6 @@ def main() -> None:
         base = ROOT / section
         if not base.exists():
             continue
-        lines.extend([f"## {section}/", ""])
         rows: list[str] = []
         if True:
             for path in sorted(base.rglob("*.md")):
@@ -55,7 +54,11 @@ def main() -> None:
                     continue
                 rel = path.relative_to(ROOT).as_posix()
                 rows.append(f"- [{title(path)}]({rel}) — {meta.get('descripcion', 'Sin descripción')}")
-        lines.extend(rows or ["- Sin entradas vigentes."])
+        # Una capa sin notas vigentes no ocupa sitio: el indice es puerta, no inventario.
+        if not rows:
+            continue
+        lines.extend([f"## {section}/", ""])
+        lines.extend(rows)
         lines.append("")
     (ROOT / "MAPA.md").write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
