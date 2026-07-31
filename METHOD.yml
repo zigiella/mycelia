@@ -3,7 +3,7 @@ method:
   # Referencia normativa: los agentes cargan el metodo desde sealed_ref, nunca desde main.
   # Linaje: metodo-v0.1 se sello el 2026-07-26 en la instancia original (hoy
   # zigiella/mycelia-zigiella), antes de separar metodo e instancia.
-  sealed_ref: metodo-v0.2
+  sealed_ref: metodo-v0.2.1
   working_ref: main
   status: sealed
 
