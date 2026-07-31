@@ -11,7 +11,7 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-GRAPH_DIRS = ("metodo", "equipos", "proyectos", "mundo")
+GRAPH_DIRS = ("metodo", "direccion", "equipos", "proyectos", "mundo")
 REQUIRED = {"descripcion", "capa", "tipo", "estado", "autor", "creado"}
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
