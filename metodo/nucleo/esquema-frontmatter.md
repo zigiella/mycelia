@@ -38,7 +38,7 @@ contradice: ["[[nota-que-contradice]]"] (cuando un hecho choca con otro y ningun
 
 Sobre los dos últimos, que son la única concesión a la ontología (y se quedan aquí):
 
-- **`temas`** existe porque las carpetas solo dan una faceta y un hecho sirve a varios proyectos. El vocabulario vive en la instancia (`mundo/TEMAS.md`), es corto, y lo amplía el bibliotecario cuando un tema se repite; no se inventan temas de un solo uso.
+- **`temas`** existe porque las carpetas solo dan una faceta y un hecho sirve a varios proyectos. El vocabulario vive en la instancia (`mundo/TEMAS.md`), es corto, y lo amplía la bibliotecaria cuando un tema se repite; no se inventan temas de un solo uso.
 - **`contradice`** es la relación tipada que más paga: un choque nombrado se puede resolver, uno silencioso envenena. Contradecir no es superar; mientras no haya resolución, ambas notas siguen vigentes y enlazadas.
 
 Todo lo demás se relaciona con `[[wikilinks]]` sin tipo. Más vocabulario formal sería deuda que nadie valida.

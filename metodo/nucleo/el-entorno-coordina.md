@@ -15,6 +15,6 @@ Protocolo mínimo a N agentes: orden definido por el tracker, cada agente lee to
 
 Esto no choca con [[el-par]]: el par es con quien piensa la dirección y a quien delega, no el capataz del proceso. El par entrega trabajo por el entorno como cualquiera; la coordinación entre manos la hace el entorno, no el par.
 
-Roles sin mando ([[roles]]): el **bibliotecario** (jardinero a posteriori) y el **verificador**, la única pieza estructural obligatoria en modo N (los equipos planos son los mejores con agentes sanos y los peores con uno defectuoso; un inspector dedicado recupera ~96% de los errores). Verificar no es coordinar: contrasta, no asigna.
+Roles sin mando ([[roles]]): la **bibliotecaria** (jardinera a posteriori) y el **verificador**, la única pieza estructural obligatoria en modo N (los equipos planos son los mejores con agentes sanos y los peores con uno defectuoso; un inspector dedicado recupera ~96% de los errores). Verificar no es coordinar: contrasta, no asigna.
 
 El chat no coordina (la información falsa se propaga por conformidad social); la memoria compartida no es un lujo del arnés: es el prerrequisito de coordinar sin jefa.

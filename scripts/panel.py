@@ -175,7 +175,7 @@ const kpi=(v,l)=>`<div class="card"><h2>${l}</h2><div class="big">${v}</div></di
 const nAten=Object.values(D.atencion).reduce((a,b)=>a+b.length,0);
 const hechos=D.stats.tipo.hecho||0, hip=(D.stats.tipo.hipotesis||0)+(D.stats.tipo.pregunta||0);
 el('#kpis').innerHTML=kpi(D.total,'Notas vigentes')+kpi(Object.keys(D.stats.grupo).length,'Grupos de conocimiento')
-  +kpi(hechos,'Hechos con fuente')+kpi(hip,'Hipótesis y preguntas abiertas')+kpi(nAten,'Avisos del bibliotecario');
+  +kpi(hechos,'Hechos con fuente')+kpi(hip,'Hipótesis y preguntas abiertas')+kpi(nAten,'Avisos de la bibliotecaria');
 function bars(id,obj){const m=Math.max(...Object.values(obj),1);
   el(id).innerHTML=Object.entries(obj).map(([k,v])=>
     `<div class="bar"><b>${k}</b><i style="width:${Math.round(v/m*100)}%"></i><u>${v}</u></div>`).join('');}
