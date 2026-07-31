@@ -44,16 +44,15 @@ def main() -> None:
         if not base.exists():
             continue
         rows: list[str] = []
-        if True:
-            for path in sorted(base.rglob("*.md")):
-                if path.name in SKIP:
-                    continue
-                meta = frontmatter(path)
-                # Lo cerrado no ocupa sitio en el indice: superado y adoptada salen.
-                if meta.get("estado") in ("superado", "adoptada"):
-                    continue
-                rel = path.relative_to(ROOT).as_posix()
-                rows.append(f"- [{title(path)}]({rel}) — {meta.get('descripcion', 'Sin descripción')}")
+        for path in sorted(base.rglob("*.md")):
+            if path.name in SKIP:
+                continue
+            meta = frontmatter(path)
+            # Lo cerrado no ocupa sitio en el indice: superado y adoptada salen.
+            if meta.get("estado") in ("superado", "adoptada"):
+                continue
+            rel = path.relative_to(ROOT).as_posix()
+            rows.append(f"- [{title(path)}]({rel}) — {meta.get('descripcion', 'Sin descripción')}")
         # Una capa sin notas vigentes no ocupa sitio: el indice es puerta, no inventario.
         if not rows:
             continue
